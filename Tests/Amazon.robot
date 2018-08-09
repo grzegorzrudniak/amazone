@@ -8,7 +8,7 @@ Library  SeleniumLibrary
 *** Test Cases ***
 Should be abe to search products
     [Documentation]  This is test case for search the products
-    [Tags]  Smoke
+    [Tags]  Smoke test
     open browser  http://www.amazon.com  ie
     sleep  3s
     input text  id=twotabsearchtextbox  Ferrari 458
